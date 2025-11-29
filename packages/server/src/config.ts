@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 import { z } from "zod";
 
 dotenv.config({
-  path: ".env",
+  path: "../../.env",
   quiet: true,
 });
 
