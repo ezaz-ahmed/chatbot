@@ -5,7 +5,7 @@ const app = new Elysia({
   prefix: "/api",
 });
 
-app.get("/", () => ({ hello: "world", env: env.NODE_ENV }));
+app.get("/message", () => ({ message: "Hello, world", env: env.NODE_ENV }));
 
 app.listen({
   port: env.PORT,
